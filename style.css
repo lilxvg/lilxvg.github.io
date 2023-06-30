@@ -1,28 +1,72 @@
 .me{
     display: flex;
     
-    color: rgb(0, 136, 255);
+    color: rgb(255, 255, 255);
     font-size: 10vh;
     margin: 20px;
     padding: 20px;
+    transition: all 0.5s;
 }
+.text{
+    max-width: 30%;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    margin: 15px;
+    padding: 75px;
+    text-justify:distribute-all-lines;
+    
+    transition: all 0.3s;
+    
+    
+}
+.text:hover{
+    font-size: 4vh;
+    max-width: 35%;
+    box-shadow: 1px -50px 35px rgb(255, 66, 132);
+}
+.me:hover{
+    font-size: 11vh;
+    color:rgb(255, 66, 132);;
+}
+
 .button{
     
     max-height: 50%;
-    color: rgb(0, 136, 255);
-    font-size: 2vh;
-    margin: 20px;
-    padding: 20px;
+    
+    font-size: 3vh;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(41, 40, 40);
+    background-color: #f6f4f4;
+    border: none;
+    cursor: grab;
+    cursor: pointer;
+    transition:all 0.5s;
+    max-width: 20%;
 }
 .button-dom{
     align-items: center;
     justify-content:center ;
     display: flex;
     flex-grow: 1;
-   
+    z-index: 5;
+    transition:all 0.5s;
     
-  
 }
+.button:hover {
+    transition:all 0.5s;
+    flex-grow: 1;
+    color: rgb(250, 250, 250);
+    border: solid 5px;
+
+    border-color: rgb(255, 66, 132);
+    background-color: #181818;
+    box-shadow: 1px 1px 35px rgb(255, 66, 132);
+  }
+
+  
+
 .header{
     background-color: rgb(25, 25, 25);
     display: flex;
@@ -59,20 +103,44 @@
     
 }
 .images{
-    min-width: 40%;
+    max-width: 45%;
     padding: 20px;
     border-radius: 200px;
     margin: 10px;
+    
+    min-height: auto;
+    transition: all 0.5s;
+    
 }
+.images:hover{
+    max-width: 65%;
+    box-shadow: 1px 1px 35px rgb(255, 66, 132);
+    
+    min-height: auto;
+    
+}
+.img-dom {
+    
+    
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    transition: transform 1s ease-in-out; /* increase duration and use ease-in-out */
+    position: relative;
+  }
+  
+ 
+
 .side-dom:hover{
     background-color: #111;
     border: none;
-    box-shadow: -200px 20px 200px #181818;
-    min-width: 450px;
+    box-shadow: 1px -50px 35px rgb(255, 66, 132);
+    min-width: 300px;
     
     
     transition: all 0.5s;
 }
+
 
 .side-dom {
     display: flex;
@@ -117,3 +185,39 @@
     
   }
 
+
+
+  /* body Two */
+
+
+.two-body{
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    
+    padding: 20px;
+    min-width: 95%;
+    min-height: 100vh;
+  }
+.text-2{
+    display: flex;
+    font-size: 4vh;
+    color:#181818;
+    background-color: #ffffff;
+    margin: 50px;
+    min-width: 50%;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.projects{
+    color: rgb(255, 66, 132);
+    
+    
+}
+/* .html{
+    scroll-behavior: smooth;
+} */
