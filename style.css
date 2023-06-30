@@ -364,7 +364,39 @@
         min-height: 35px;
         min-width: 70px;
     }
-
+    .two-body{
+        margin-top: 30vh;
+        display: flex;
+        justify-content: center;
+        
+        padding: 2px;
+        min-width: 95%;
+        min-height: 550px;
+        background-image: url(images/layered-waves-haikei.svg);
+        background-size:200%;
+        
+        background-position:bottom;
+        background-repeat: no-repeat;
+        background-color: #111;
+        
+      }
+    .text-2{
+        display: flex;
+        font-size: 4vh;
+        color:#181818;
+        background-color: #ffffff;
+        margin: 50px;
+        min-width: 85%;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        background-image: url(images/layered-waves-haikei.svg);
+        background-size:200%;
+        
+        background-position:bottom;
+        background-repeat: no-repeat;
+        
+    }
     
 
 
