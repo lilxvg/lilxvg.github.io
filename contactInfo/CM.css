@@ -4,6 +4,10 @@
     min-width: 100%;
     
     background-color: #191919;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .me{
     color: #FFF;
@@ -39,10 +43,20 @@
     display: flex;
     background-color: #111 ;
     margin: 20px;
+    border-radius: 20px;
+    background-image: url(images/layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
 }
 .body-dom{
+    margin-top: 200px;
     background-color: #111 ;
+    background-image: url(images/layered-waves-haikei\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: top;
 }
 .full-button{
     display: flex;
@@ -127,4 +141,100 @@
     max-width: 390px;
     padding: 2px;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        min-width: 100%;
+        max-height: 150px;
+        
+        background-color: #191919;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .body-dom{
+        margin-top: 150px;
+        background-image: url(images/layered-waves-haikei\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-size: 170%;
+        background-position: top;
+    }
+
+    .me{
+        display: flex;
+        align-items: center;
+        color: #FFF;
+        text-align: center;
+        font-size: 33px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .button-BH{
+        font-size: 1px;
+        min-height: 45px;
+        color: transparent;
+        min-width: 45px;
+        text-indent: -9999px;
+        background-image: url(images/Arrow\ 1.svg);
+        background-repeat: no-repeat;
+        background-position:center ;
+        padding: 10px;
+    }
+    .main-body{
+        display: flex;
+        flex-direction: column;
+        background-color: #111 ;
+        margin: 2px;
+        
+    }
+    .full-button{
+        display: flex;
+        
+        flex-direction: row;
+        
+        
+        
+        
+        
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+        
+        margin: 5px;
+        margin-bottom:50px ;
+        
+        
+        
+        
+    }
+    .text{
+        color: #FFF;
+        font-size: 42px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .User-names{
+        
+        display: none;
+
+    }
+    .half-button{
+       min-width: 50px;
+       min-height: 50px;
+       padding: 5px;
+       
+       text-indent: -9999px;
+
+    }
+
 }
