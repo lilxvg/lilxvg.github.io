@@ -215,6 +215,7 @@
         margin-bottom:50px ;
         
         
+        flex-direction: column;
         
         
     }
@@ -225,6 +226,7 @@
         font-style: normal;
         font-weight: 300;
         line-height: normal;
+
     }
     .User-names{
         
