@@ -20,3 +20,7 @@ function scrollToHome() {
       behavior: "smooth",
     });
   }
+
+  function goTocontact() {
+    window.location.href = "D:\Projects\protefolie\contact-me\contact.html";
+  }
