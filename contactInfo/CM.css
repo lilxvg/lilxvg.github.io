@@ -1,0 +1,130 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    
+    background-color: #191919;
+}
+.me{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+    cursor: pointer;
+}
+.button-BH{
+    cursor: pointer;
+    min-width: 400px;
+    border-radius: 42px;
+    background: #F6F6F6; 
+    
+    padding: 5px; 
+    color: #111;
+    text-align: center;
+    font-size: 42px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.back-home{
+    display: flex;
+    padding: 20px;
+}
+.main-body{
+    display: flex;
+    background-color: #111 ;
+    margin: 20px;
+    
+}
+.body-dom{
+    background-color: #111 ;
+}
+.full-button{
+    display: flex;
+    
+    
+    justify-content: center;
+    
+    flex-direction: column;
+    min-height: 100%;
+    
+    
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+    align-items: center;
+    justify-content: right;
+    
+}
+.text{
+    color: #F6F6F6;
+    padding: 20px;
+    color: #FFF;
+    font-size: 42px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.half-button{
+    margin: 5px;
+    min-width:132px;
+    min-height:132px;
+    border-radius: 40px;
+    cursor: pointer;
+    
+}
+#ins{
+    
+    
+    background-image: url(images/new-Instagram-logo-black-glyph-1.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#twt{
+    background-image: url(images/twitter-xxl.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#eml{
+    background-image: url(images/icons8-email-100.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#email{
+    transition: all 0.5s;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 42px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    
+    min-height: 100%;
+    justify-content: space-evenly ;
+
+}
+.User-names{
+    margin: 20px;
+    text-decoration: none;
+    color: #F6F6F6;
+    
+    max-width: 390px;
+    padding: 2px;
+    cursor: pointer;
+}
