@@ -9,6 +9,9 @@
     left: 0;
     right: 0;
 }
+#copied{
+    display: none;
+}
 .me{
     color: #FFF;
     text-align: center;
@@ -235,6 +238,13 @@
        
        text-indent: -9999px;
 
+    }
+    #copied{
+        display: none;
+        color: #F6F6F6;
+        text-align: center;
+        justify-content:center ;
+        padding: 10px;
     }
 
 }
